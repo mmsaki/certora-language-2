@@ -36,7 +36,7 @@ Notes referenced from [Introduction to Logic (written by Patrick Suppes)](<http:
 
 1. Ithe there are approximately one hundred milliion husbands in the United States, then there are approximately one hundred million wives in the United States
 
-   - Its hard to imagine anyone denying the truth of (3) for the case where the consequent if true, consider the modification in sentence 4 ()
+   - Its hard to imagine anyone denying the truth of (3) for the case where the consequent if true, consider the modification in sentence (4)
 
 1. If there are approximately one hundred million husbands in the United States, then the number of husbands in this country is greater than the number in France
 
