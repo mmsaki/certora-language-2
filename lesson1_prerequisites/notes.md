@@ -22,8 +22,8 @@ Notes referenced from [Introduction to Logic (written by Patrick Suppes)](<http:
 1. _If_ Mary loves John, _then_ John loves Mary.
 
    - In Mathematical Logic, sentence (1) is true if the sentence 'Mary loves John' is false, regardless of the truth or falsity of the sentence 'John loves Mary'
-   - The sentence following 'if' is the _antecedent_ or _hypothesis_, 'Mary loves John'
-   - The sentence following 'then' is the _consequent_ of _conclusion_, 'John loves Mary'
+   - The sentence following 'if' is the **antecedent** or **hypothesis**, 'Mary loves John'
+   - The sentence following 'then' is the **consequent** of **conclusion**, 'John loves Mary'
    - The rule of usage is then: A conditional sentence is false if the antecedent is true and the consequent is false; otherwise it is true.
 
    1. Intuitive objections to this rule could be made on two counts:
