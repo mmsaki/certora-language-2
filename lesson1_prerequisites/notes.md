@@ -1,4 +1,8 @@
-# The Sentential Connectives
+# Introduction to Logic
+
+Notes referenced from [Introduction to Logic (written by Patrick Suppes)](<http://web.mit.edu/gleitz/www/Introduction%20to%20Logic%20-%20P.%20Suppes%20(1957)%20WW.pdf>)
+
+## Chapter 1: The Sentential Connectives
 
 ## Negation and Conjunction
 
