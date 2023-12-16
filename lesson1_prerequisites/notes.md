@@ -11,9 +11,9 @@ Notes referenced from [Introduction to Logic (written by Patrick Suppes)](<http:
 
 ## Disjunction
 
-1. Non-Exclusive Disjunction - the disjuntion of two sentenses is true if at least one of the sentences is true
+1. Non-Exclusive Disjunction '_or_' - the disjuntion of two sentenses is true if at least one of the sentences is true
    > Eg. Legal: Before any such work is done or any such materials are furnished, the Lessee and any contractor or other person engaged to do such work and/or furnish such materials shall funish such bond or bonds as the Lessor may reasonably require ...
-1. Exclusive Disjunction - The disjunction of two sentences if true if and only if at least one of the sentenses is true, but not both, **P ∨ Q**
+1. Exclusive Disjunction - The disjunction of two sentences is true if and only if at least one of the sentenses is true, but not both, **P ∨ Q**
 
    > Thus a father tells his child, "You may go to the movies or you may go to the circus this Saturday but not both"
 
