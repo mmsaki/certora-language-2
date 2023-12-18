@@ -31,7 +31,7 @@ methods
 rule transferSpec(address recipient, uint amount) {
 
     env e;
-    
+
     // `mathint` is a type that represents an integer of any size
     mathint balance_sender_before = balanceOf(e.msg.sender);
     mathint balance_recip_before = balanceOf(recipient);
@@ -41,12 +41,17 @@ rule transferSpec(address recipient, uint amount) {
     mathint balance_sender_after = balanceOf(e.msg.sender);
     mathint balance_recip_after = balanceOf(recipient);
 
+    address sender = e.msg.sender;
+
     // Operations on mathints can never overflow nor underflow
-    assert balance_sender_after == balance_sender_before - amount,
+    assert recipient != sender => balance_sender_after == balance_sender_before - amount,
         "transfer must decrease sender's balance by amount";
 
-    assert balance_recip_after == balance_recip_before + amount,
+    assert recipient != sender => balance_recip_after == balance_recip_before + amount,
         "transfer must increase recipient's balance by amount";
+
+    assert recipient == sender => balance_recip_after == balance_recip_before,
+        "transfer must not change sender's balance when transfering to self";
 }
 
 
