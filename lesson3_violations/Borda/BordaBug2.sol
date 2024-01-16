@@ -17,7 +17,7 @@ contract Borda is IBorda{
 
     address private _owner; 
 
-    constructor() public {
+    constructor() {
         _owner = msg.sender;
     }
 
@@ -30,7 +30,7 @@ contract Borda is IBorda{
         voteTo(s, 2);
         voteTo(t, 1);
 
-        voteTo(_owner,2); //give also point to the owner...
+        // voteTo(_owner,2); //give also point to the owner...
     }
 
     function voteTo(address c, uint256 p) private {
