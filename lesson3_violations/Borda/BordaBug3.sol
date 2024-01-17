@@ -17,7 +17,7 @@ contract Borda is IBorda{
     // current max points of all candidates.
     uint256 public pointsOfWinner;
 
-    constructor(address blacklisted) public {
+    constructor(address blacklisted) {
         _blacklisted = blacklisted; //blacklisting a specific candidate 
     }
 
@@ -25,7 +25,7 @@ contract Borda is IBorda{
         require(!_voted[msg.sender], "this voter has already cast its vote");
         require( f != s && f != t && s != t, "candidates are not different");
         _voted[msg.sender] = true;
-        require( f != _blacklisted &&  s != _blacklisted ); 
+        // require( msg.sender != _blacklisted ); 
         voteTo(f, 3);
         voteTo(s, 2);
         voteTo(t, 1);
